@@ -1,0 +1,107 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color:rgba(192, 176, 176, 0.699);
+}
+.container{
+    width: 1000px;
+    margin: auto;
+    height: 1100px;
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+.clear {
+    clear: both;
+}
+
+
+.judul img{
+    width: 1000px;
+    height: 200px;
+}
+.judul h1{
+    position:absolute;
+    color: rgb(187, 87, 87);
+    font-size: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.judul h2{
+    position: absolute;
+    font-size: 35px;
+    top:70px;
+    margin-left: 50px;
+    color: rgb(14, 9, 9);
+    text-decoration: underline;
+}
+.navigasi{
+    height: 50px;
+    background-color: blue;
+    
+}
+.navigasi ul li{
+    display: inline-block;
+    font-size: 27px;
+    font-family: sans-serif;
+    color: whitesmoke;
+    line-height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+}
+.navigasi ul li:hover {
+    background-color: lightcoral;
+}
+.konten .kiri{
+width: 600px;
+float: left;
+}
+.kiri h1{
+    text-align: center;
+    margin-top: 200px;
+}
+.kiri.h1{
+    margin-top: 200px;
+    margin-left: auto;
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.konten .kanan {
+    width: 400px;
+    font-family: sans-serif;
+    float: right;
+    margin-right: 300px;
+}
+.kanan h1{
+    margin-top: 30px;
+    text-align: center;
+}
+.kanan ul li{
+    list-style: none;
+    padding-left: 40px;
+    line-height: 40px;
+    font-size: 27px;
+}
+.kanan img{
+    width: 300px;
+    height: 200px;
+}
+.footer{
+    height: 60px;
+    background-color:black;
+    margin: auto;
+    width: 960;
+
+}
+.footer h1{
+    text-align: center;
+    color: aliceblue;
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 60px;
+    clear: both;
+}
